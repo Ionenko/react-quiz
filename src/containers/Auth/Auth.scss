@@ -1,0 +1,30 @@
+.Auth {
+  min-width:  640px;
+  margin: auto;
+}
+
+.authForm {
+  padding: 30px 30px;
+  color: #fff;
+  border-radius: 2px;
+  text-align: left;
+  background: #5187bd57;
+  max-width: 420px;
+  margin: auto;
+}
+
+.AuthActions {
+  margin: 20px 0 0;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+
+  button {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

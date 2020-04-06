@@ -1,0 +1,32 @@
+.AnswerItem {
+	margin: 0 0 10px;
+	padding: 10px 10px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+	display: block;
+	cursor: pointer;
+	border-radius: 2px;
+	transition: background .3s ease-out;
+
+	&:hover {
+		background: rgba(255, 255, 255, 0.22);
+		transition: background .3s ease-out;
+	}
+
+	&:last-child {
+		margin: 0;
+	}
+
+	&.success {
+		border-color: rgba(0, 128, 0, 0.5);
+		background: rgba(0, 128, 0, 0.22);
+	}
+
+	&.error {
+		border-color: rgba(255, 0, 0, 0.5);
+		background: rgba(255, 0, 0, 0.22);
+	}
+
+}

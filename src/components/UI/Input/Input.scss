@@ -1,0 +1,48 @@
+.Input {
+  margin: 0 0 10px;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &.inValid {
+
+    input {
+      background: rgba(253, 17, 17, 0.58);
+      transition: background .3s;
+    }
+
+    label {
+      color: #fe1b00;
+    }
+  }
+
+  & > label {
+    display: inline-block;
+    margin: 0 0 4px;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  input {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    line-height: normal;
+    height: 36px;
+    border-radius: 0;
+    border: 0 none;
+    outline: 0 none;
+    width: 100%;
+    background: rgba(40, 44, 52, 0.58);
+    padding: 0 10px;
+    transition: background .3s;
+  }
+
+  .error {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 2px 0 0;
+    color: #fe1b00;
+  }
+}

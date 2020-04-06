@@ -1,0 +1,23 @@
+.Select {
+  & > label {
+    display: inline-block;
+    margin: 0 0 4px;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  select {
+    display: block;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    line-height: normal;
+    height: 36px;
+    border-radius: 0;
+    border: 0 none;
+    outline: 0 none;
+    background: rgba(40, 44, 52, 0.58);
+    padding: 0 10px;
+  }
+}

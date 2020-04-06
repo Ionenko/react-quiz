@@ -1,0 +1,39 @@
+.QuizCreator {
+  min-width:  640px;
+  margin: auto;
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0 none;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 30px 0;
+  }
+}
+
+.QuizCreatorForm {
+  padding: 30px 30px;
+  color: #fff;
+  border-radius: 2px;
+  text-align: left;
+  background: #5187bd57;
+  max-width: 620px;
+  margin: auto;
+}
+
+.QuizCreatorActions {
+  margin: 20px auto 0;
+  padding: 20px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+
+  button {
+    display: block;
+    width: 100%;
+    margin: 0 auto 10px;
+    max-width: 420px;
+
+    &:last-child {
+      margin: 0 auto;
+    }
+  }
+}
